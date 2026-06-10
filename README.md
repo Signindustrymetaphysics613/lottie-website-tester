@@ -2,7 +2,7 @@
 
 A free, single-file website tester that finds broken links, slow pages, and bloated pages on your site — no signup, no paywall, no subscription nagging, no install.
 
-[Download `lottie-website-tester.html`](./lottie-website-tester.html), upload it anywhere on your domain, and open it in your browser. That's the whole install.
+[Download `lottie.html`](./lottie.html), upload it anywhere on your domain, and open it in your browser. That's the whole install.
 
 ## Why this exists
 
@@ -14,11 +14,11 @@ It will never have a "Pro" tier. There is nothing to sign up for. You own the fi
 
 ## How to use it
 
-1. **Download** [`lottie-website-tester.html`](./lottie-website-tester.html).
+1. **Download** [`lottie.html`](./lottie.html).
 2. **Upload** the file anywhere on the website you want to test — any folder will do. For example:
-   - `https://yoursite.com/lottie-website-tester.html`
-   - `https://yoursite.com/tools/lottie-website-tester.html`
-   - `https://yoursite.com/private/admin/lottie-website-tester.html`
+   - `https://yoursite.com/lottie.html`
+   - `https://yoursite.com/tools/lottie.html`
+   - `https://yoursite.com/private/admin/lottie.html`
 3. **Open** that URL in your browser.
 4. **Click "Start crawl"**. Watch the results stream in.
 
@@ -26,11 +26,11 @@ That's it. Everything runs locally in your browser; no data is sent anywhere.
 
 ### Why does it need to be uploaded?
 
-Browsers refuse to let a web page fetch content from a different website than the one it was loaded from — this is called the *same-origin policy* and it's how the web stays secure. By hosting `lottie-website-tester.html` on the site you want to test, your browser sees the crawler and the site as the same place, and lets the crawler do its job.
+Browsers refuse to let a web page fetch content from a different website than the one it was loaded from — this is called the *same-origin policy* and it's how the web stays secure. By hosting `lottie.html` on the site you want to test, your browser sees the crawler and the site as the same place, and lets the crawler do its job.
 
 ### Want to test it on your local machine first?
 
-The tool detects when it's opened directly from disk (`file://`) and shows you instructions, but the short version is: run any one of these in the folder containing the file, then visit `http://localhost:8000/lottie-website-tester.html`.
+The tool detects when it's opened directly from disk (`file://`) and shows you instructions, but the short version is: run any one of these in the folder containing the file, then visit `http://localhost:8000/lottie.html`.
 
 ```sh
 python3 -m http.server 8000     # Python 3

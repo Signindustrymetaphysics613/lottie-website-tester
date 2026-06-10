@@ -1,0 +1,10 @@
+:root { --orange: #F26430; --cream: #FFF4E6; --ink: #3A2516; }
+* { box-sizing: border-box; }
+body { font-family: -apple-system, sans-serif; color: var(--ink); background: var(--cream); max-width: 880px; margin: 2em auto; padding: 0 1.5em; }
+header.site { display: flex; align-items: center; gap: 1em; padding: 1em 0; border-bottom: 1px solid #FFD4B0; margin-bottom: 1.5em; }
+header.site .brand { font-weight: 700; font-size: 1.2rem; color: var(--orange); }
+nav { display: flex; flex-wrap: wrap; gap: 0.8em; font-size: 0.95rem; }
+nav a { color: var(--ink); text-decoration: none; }
+nav a:hover { color: var(--orange); }
+h1 { color: var(--orange); }
+footer { margin-top: 3em; padding-top: 1em; border-top: 1px solid #FFD4B0; color: #6B4A33; font-size: 0.9rem; }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sitemap — Crawl Mechanics Test Site</title>
+</head>
+<body>
+<header><nav><a href="/">Home</a> · <a href="/about.html">About</a> · <a href="/sitemap.html">Sitemap</a></nav></header>
+<main>
+<h1>Sitemap</h1>
+<h2>Top-level</h2>
+<ul><li><a href="/index.html">Home</a></li><li><a href="/about.html">About</a></li></ul>
+<h2>Deep chain</h2>
+<ul>
+<li><a href="/content/level1/page.html">Level 1 (depth 2)</a></li>
+<li><a href="/content/level1/level2/page.html">Level 2 (depth 3)</a></li>
+<li><a href="/content/level1/level2/level3/page.html">Level 3 (depth 4)</a></li>
+<li><a href="/content/level1/level2/level3/level4/page.html">Level 4 (depth 5)</a></li>
+<li><a href="/content/level1/level2/level3/level4/level5/page.html">Level 5 (depth 6)</a></li>
+<li><a href="/content/level1/level2/level3/level4/level5/level6/page.html">Level 6 (depth 7)</a></li>
+</ul>
+<h2>Tag pages</h2>
+<ul><li><a href="/tag/news.html">Tag: news</a></li><li><a href="/tag/code.html">Tag: code</a></li><li><a href="/tag/design.html">Tag: design</a></li><li><a href="/tag/lifestyle.html">Tag: lifestyle</a></li><li><a href="/tag/travel.html">Tag: travel</a></li></ul>
+<h2>Category pages</h2>
+<ul><li><a href="/category/cat-a.html">Category: cat-a</a></li><li><a href="/category/cat-b.html">Category: cat-b</a></li><li><a href="/category/cat-c.html">Category: cat-c</a></li></ul>
+<h2>Disallowed by robots.txt (linked anyway)</h2>
+<ul><li><a href="/secret/forbidden.html">Secret 1</a></li><li><a href="/secret/forbidden-2.html">Secret 2</a></li><li><a href="/admin/dashboard.html">Admin dashboard</a></li><li><a href="/admin/users.html">Admin users</a></li></ul>
+</main>
+</body>
+</html>

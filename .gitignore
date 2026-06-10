@@ -1,0 +1,4 @@
+# Copies of the tester deposited into test_website folders by
+# copy_lottie_to_test_folders.sh. The canonical file lives in the
+# project root; we don't want N duplicates tracked in git.
+test_website*/lottie.html

@@ -2012,7 +2012,7 @@ function wireUI() {
         }
         const res = await fetch(window.location.href, { credentials: 'same-origin' });
         const text = await res.text();
-        downloadBlob(text, 'text/html;charset=utf-8', 'lottie-website-tester.html');
+        downloadBlob(text, 'text/html;charset=utf-8', 'lottie.html');
       } catch (err) {
         alert('Could not auto-download. Use your browser\'s "Save Page As…" instead.');
       }

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JS redirect — Redirects Test Site</title>
+
+</head>
+<body>
+<header><nav><a href="/">Home</a> · <a href="/about.html">About</a> · <a href="/contact.html">Contact</a></nav></header>
+<main>
+<h1>JS redirect</h1>
+<p>This page uses JavaScript to redirect. Lottie does not execute JS, so it sees only this HTML. The fallback link below is what makes <code>js-final.html</code> reachable to the crawler:</p><p><a href="/js-final.html">Continue to destination</a></p><script>window.location.replace("/js-final.html");</script>
+</main>
+</body>
+</html>
